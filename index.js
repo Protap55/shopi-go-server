@@ -94,7 +94,7 @@ async function run() {
       }
     });
 
-    // DELETE product
+    
     app.delete("/products/:id", async (req, res) => {
       const id = req.params.id;
 
