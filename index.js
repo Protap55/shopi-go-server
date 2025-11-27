@@ -50,7 +50,7 @@ async function run() {
       res.json(product);
     });
 
-    
+    // POST Add Product
     app.post("/products", async (req, res) => {
       try {
         const {
